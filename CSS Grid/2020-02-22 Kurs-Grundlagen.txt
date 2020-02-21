@@ -1,0 +1,4 @@
+Wesbos CSS Grid Tutorial - 21.02.2020
+
+Node im Einsatz: 8.6
+Aktuellstes Node im Video: 9.2.1
