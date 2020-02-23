@@ -25,7 +25,16 @@
       'Bonjour!' - item2 will go over the column track:
       grid-template-columns: repeat(auto-fill, 100px);
       */
+      /*
       grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      */
+
+      /* Emmet: gtc */
+      grid-template-columns: fit-content(100px) 150px 150px 150px;
+      /*
+      will not care for the content in the first row, if 'auto' will get too small for the content in item01:
+      grid-template-columns: auto 150px 150px 150px;
+      */
     }
   </style>
 </body>
