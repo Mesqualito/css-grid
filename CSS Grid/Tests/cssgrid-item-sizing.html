@@ -52,7 +52,10 @@
 
         .poop {
             background: #BADA55;
-            grid-column: span 2;
+            /* start at No. 2 TRACK (see. Firefox Developer Edition wrong translated "Zeilennummern anzeigen") */
+            grid-column-start: 2;
+            /* and end at TRACK No. 5 */
+            grid-column-end: 5;
         }
     </style>
     </html>
