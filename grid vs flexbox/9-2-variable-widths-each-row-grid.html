@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/basics.css">
+  <title>Flexbox vs CSS Grid: Variable Widths on Each Row!</title>
+</head>
+
+<body>
+  <h2>better use flexbox!</h2>
+  <div class="grid-container">
+    <div class="item">Short</div>
+    <div class="item">Longerrrrrrrrrrrrrr</div>
+    <div class="item">💩</div>
+    <div class="item">This is Many Words</div>
+    <div class="item">Lorem, ipsum.</div>
+    <div class="item">10</div>
+    <div class="item">Mars</div>
+    <div class="item">Jochen Is Cool</div>
+    <div class="item">Short</div>
+  </div>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-auto-flow: column;
+      grid-gap: 10px;
+    }
+    }
+
+    .grid-container>* {
+      margin: 10px;
+    }
+  </style>
+</body>
+
+</html>

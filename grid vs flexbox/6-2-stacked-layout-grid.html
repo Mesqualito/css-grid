@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/basics.css">
+  <title>Flexbox vs CSS Grid: Stacked Layout!</title>
+</head>
+
+<body>
+  <h2>Not doable with CSS grid - except with spanning manually...</h2>
+  <!-- Stacked Layout -->
+  <div class="stacked">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+  </div>
+
+  <style>
+    .stacked {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 30px;
+    }
+
+    .stacked>* {
+      margin-bottom: 20px;
+    }
+  </style>
+</body>
+
+</html>
