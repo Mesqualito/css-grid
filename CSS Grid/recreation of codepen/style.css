@@ -27,3 +27,18 @@ html {
     margin: 0;
     font-size: 1.5em;
   }
+
+  .codepen {
+      display: grid;
+      grid-template: auto 1fr 1fr auto;
+  }
+
+  /* are the direct elements of codepen really
+  laid out as we want them:
+  - header: take your space
+  - footer: take your space
+  - code-boxes: take half of the horizontal space left over
+  - preview: take the rest half of the horizontal space */
+  .codepen >* {
+      border: 1px solid black;
+  }
