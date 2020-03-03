@@ -51,7 +51,7 @@ html {
     align-items: center;
     grid-gap: 10px;
     background: black;
-    border-bottom: 5px solid var(--grey);
+    border-bottom: 2px solid var(--grey);
     padding: 10px;
 }
 
@@ -103,6 +103,16 @@ html {
 
   .preview {
       display: grid;
+
+  }
+
+
+  /* Footer: Settings area */
+
+  .settings {
+      padding: 5px;
+      background: black;
+      border-top: 2px solid var(--grey);
 
   }
 
