@@ -46,3 +46,8 @@ html {
       align-items: center;
       grid-gap: 10px;
   }
+
+  .preview {
+      display: grid;
+      
+  }
