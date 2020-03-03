@@ -55,7 +55,13 @@ html {
     padding: 10px;
 }
 
-  /* Editor areas */
+  /* Code area */
+
+  .code {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: #1b2b34;
+}
 
   .editor {
       display: grid;
@@ -73,11 +79,15 @@ html {
     background: rgba(0, 0, 0, 0.1);
 }
 
-  .code {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      background: #1b2b34;
-  }
+    .editor__code {
+        display: grid;
+        grid-template-columns: auto 1fr;
+}
+
+.editor__number {
+    display: block;
+}
+
 
   /* Preview area */
 
